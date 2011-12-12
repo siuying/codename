@@ -4,9 +4,9 @@ home :: https://github.com/siuying/codename
 
 == DESCRIPTION:
 
-Codename gem randomly generate codename based on list of sources.
+Codename gem randomly generate codename based on list of names.
 
-Supported sources:
+Supported names:
 
 * stars          -  Western constellation names
 * elements       -  Elements names
@@ -18,7 +18,7 @@ Supported sources:
 
   You may generate names by "generate" command
 
-  % codename generate source [more_source]...
+  % codename generate list_name [more_list_name_]...
   
   example:
   
