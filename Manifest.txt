@@ -8,6 +8,7 @@ lib/codename.rb
 lib/codename/generator.rb
 lib/codename/lister.rb
 lib/codename/lister/factory.rb
+lib/codename/lister/adjectives_lister.rb
 lib/codename/lister/base_lister.rb
 lib/codename/lister/colors_lister.rb
 lib/codename/lister/cyclones_lister.rb

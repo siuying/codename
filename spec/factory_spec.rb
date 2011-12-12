@@ -8,6 +8,6 @@ describe Codename::Lister::Factory do
   
   it "should return number of lister" do
     info = Codename::Lister::Factory.instance.info
-    info.size.should == 5
+    info.size.should == 6
   end
 end

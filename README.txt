@@ -40,10 +40,11 @@ Supported names:
   Usage: codename generate list_name [more_list_name]...
   Usage: codename help
   list names: 
+  	adjs           -  Common adjectives
   	stars          -  Western constellation names
   	elements       -  Elements names
   	colors         -  Colour names
-  	cyclones       -  Names of tropical cyclones
+  	cyclones       -  Tropical cyclone names
   	random         -  Random numbers (00000 - 99999)
 
 == REQUIREMENTS:

@@ -20,7 +20,7 @@ module Codename::Lister
     end
     
     def description
-      "Names of tropical cyclones"
+      "Tropical cyclone names"
     end
 
     Factory.instance.register(CyclonesLister)

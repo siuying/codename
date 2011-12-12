@@ -3,6 +3,7 @@ $:.unshift(path) unless $:.include?(path)
 
 require 'lister/factory'
 require 'lister/base_lister'
+require 'lister/adjectives_lister'
 require 'lister/stars_lister'
 require 'lister/elements_lister'
 require 'lister/colors_lister'
