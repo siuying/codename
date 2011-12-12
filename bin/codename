@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'codename'
+
+def help(show_help=false)
+  puts "Usage: codename generate list_name [more_list_name]..."
+  puts "Usage: codename help" if show_help
+
+  f = Codename::Lister::Factory
+  puts "list names: "
+  puts f.instance.info.collect {|info| "\t#{info[0].ljust(15)}-  #{info[1]}" }.join("\n")
+end
+
+command = ARGV.shift
+case (command)
+when "help", "h"
+  help
+
+when "generate", "g"
+  if ARGV.size > 0
+    g = Codename::Generator.new(*ARGV)
+    10.times do
+      puts g.generate
+    end
+
+  else
+    puts "codename: missing names"
+    puts "Usage: codename generate list_name [more_list_name]..."
+    puts "\nTo get names of all supported list, try \`codename help\`"
+  end
+
+else
+  puts "codename: missing command #{command}"
+  help(true)
+
+end

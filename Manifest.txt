@@ -1,0 +1,17 @@
+.autotest
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/codename
+lib/codename.rb
+lib/codename/generator.rb
+lib/codename/lister.rb
+lib/codename/lister/factory.rb
+lib/codename/lister/base_lister.rb
+lib/codename/lister/colors_lister.rb
+lib/codename/lister/cyclones_lister.rb
+lib/codename/lister/elements_lister.rb
+lib/codename/lister/random_lister.rb
+lib/codename/lister/stars_lister.rb
+
